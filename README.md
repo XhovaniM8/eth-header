@@ -4,11 +4,6 @@ Small AXI4-Stream SystemVerilog block that prepends a fixed Ethernet II
 header (destination MAC, source MAC, EtherType) onto a 64-bit AXI4-Stream
 data path.
 
-This is a personal, from-scratch SystemVerilog implementation written for
-practice / portfolio purposes, targeting Xilinx Vivado (non-project Tcl
-flow). It has no affiliation with, and shares no source with, any employer
-or job-application exercise.
-
 ## Interface
 
 `rtl/eth_header.sv`, module `eth_header`:
