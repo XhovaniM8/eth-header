@@ -1,0 +1,11 @@
+# Vivado non-project flow artifacts
+build/
+*.jou
+*.log
+*.pb
+*.str
+.Xil/
+xsim.dir/
+webtalk*
+vivado*.backup.log
+*.wdb
